@@ -63,12 +63,12 @@
 							<li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
 							<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
 							<li><a href="cart.php"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-							<?php if (!empty($_SESSION["id"])) { ?>
 
+							<?php if (!empty($_SESSION["id"])) { ?>
 								<li><a href="logout.php"><i class="fa fa-lock"></i> Log out</a></li>
 							<?php } else { ?>
-
 								<li><a href="login.php"><i class="fa fa-lock"></i> Login</a></li>
+
 							<?php } ?>
 
 						</ul>

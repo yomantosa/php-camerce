@@ -14,6 +14,7 @@
 	} catch (Exception $e) {
 		echo " Error ".$e->getMessage();
 		exit(); 
+		
 	}
 
  ?>

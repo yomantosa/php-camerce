@@ -12,3 +12,8 @@ if ($conn->connect_error) {
   }
 //echo "Connected successfully";
 ?>
+
+<?php
+if (session_status() == PHP_SESSION_NONE) {
+  session_start();
+}
